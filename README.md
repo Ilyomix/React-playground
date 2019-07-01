@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This projet is used to experiment React new features (actual version: 16.8.4)
 
 ## Available Scripts
 
