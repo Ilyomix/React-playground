@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+:root {
+  * {
+    font-family: 'Didact Gothic';
+  }
+
+  body {
+    background: rgb(42, 46, 61);
+    font-family: 'Didact Gothic';
+  }
+
+  .ui.segment {
+    background: #6D627C;
+    border-radius: 0;
+    color: #fff;
+  }
+
+  .ui {
+    .label > i {
+      margin: 0;
+    }
+  }
+
+  .ui.menu {
+    background: #49485C;
+    border-radius: 0;
+    .item {
+      color: white;
+      border-bottom: none;
+      border-top: none;
+      border-left: 1px solid rgba(255, 255, 255, 0.11);
+      border-right: 1px solid rgba(255, 255, 255, 0.11);
+      margin-left: -1px;
+    }
+    .item:last-child {
+      border-left: 1px solid rgba(255, 255, 255, 0.11);
+      border-right: none;
+    }
+    .item:first-child {
+      border-left: none;
+      border-right: 1px solid rgba(255, 255, 255, 0.11);
+    }
+  }
+
+  .ui.card {
+    background: #6D627C;
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    .content {
+      .description {
+        color: white;
+      }
+    }
+    .meta {
+      color: rgba(255, 255, 255, 0.71);
+    }
+  }
+
+  .ui.card>.content>.header, .ui.cards>.card>.content>.header {
+    font-family: 'Didact Gothic';
+    color: white;
+  }
+
+  .ui.label {
+    transition: 0.2s ease all;
+  }
+}
