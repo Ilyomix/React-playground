@@ -6,7 +6,8 @@ import App from '../views/App/App'
 const Routes = () => {
   return (
     <Router>
-      <Route path="/" component={App} />
+      <Route path="/weather" exact component={App} />
+      <Route path="/weather/:city" component={App} />
     </Router>
   )
 }
